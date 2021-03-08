@@ -121,10 +121,50 @@ SphereCollider:
   m_GameObject: {fileID: 3964770698608777768}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7991015132884057600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5978016979234163850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09222143c57f39d42beea48fe9c03840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 729769070881178258, guid: 2c7edd6de97dcde48a2b9bc11ff19a11, type: 3}
+  tail: {fileID: 5978016979234163854}
+  tickFrequency: 5
+  tick: 0
+  apple: {fileID: 0}
+  nav: {fileID: 8639653536955726444}
+--- !u!195 &8639653536955726444
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5978016979234163850}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 180
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &7095957985888222700
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,6 +270,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Head
       objectReference: {fileID: 0}
+    - target: {fileID: 729769070881178259, guid: 2c7edd6de97dcde48a2b9bc11ff19a11,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 729769070881178259, guid: 2c7edd6de97dcde48a2b9bc11ff19a11,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 729769070881178262, guid: 2c7edd6de97dcde48a2b9bc11ff19a11,
         type: 3}
       propertyPath: m_RootOrder
@@ -285,8 +335,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4599860205298794031, guid: 2c7edd6de97dcde48a2b9bc11ff19a11, type: 3}
+    - {fileID: 8644024217560195341, guid: 2c7edd6de97dcde48a2b9bc11ff19a11, type: 3}
+    - {fileID: 8126057688946826813, guid: 2c7edd6de97dcde48a2b9bc11ff19a11, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2c7edd6de97dcde48a2b9bc11ff19a11, type: 3}
+--- !u!1 &5978016979234163850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 729769070881178258, guid: 2c7edd6de97dcde48a2b9bc11ff19a11,
+    type: 3}
+  m_PrefabInstance: {fileID: 6401453314104430104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5978016979234163854 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 729769070881178262, guid: 2c7edd6de97dcde48a2b9bc11ff19a11,
