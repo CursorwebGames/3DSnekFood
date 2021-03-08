@@ -398,6 +398,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e26e8fb3aedf1da478b73622a7770907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefab: {fileID: 4492501335002659141, guid: 771cadfb3cb378a42abf1eacdb01e2f8, type: 3}
+  offset: {x: 0, y: 3.5, z: 0}
+  tick: 10
+  maxTick: 10
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
