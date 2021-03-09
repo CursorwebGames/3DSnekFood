@@ -8,10 +8,12 @@ public class SnakeCollider : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            gameManager.isEnd = true;
             Debug.Log("You lose!");
         }
         else if (other.CompareTag("Segment"))
         {
+            gameManager.isEnd = true;
             Debug.Log("You win!");
         }
     }

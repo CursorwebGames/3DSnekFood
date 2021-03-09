@@ -3,7 +3,6 @@ using UnityEngine.AI;
 
 public class HeadManager : MonoBehaviour
 {
-    public GameManager gameManager;
     public GameObject prefab;
     public Transform tail;
 

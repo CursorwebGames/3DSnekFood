@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 4841302994662973798}
   - component: {fileID: 8672512976446850334}
   - component: {fileID: 6529408242831602903}
+  - component: {fileID: 7710387703161799987}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -125,6 +126,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7710387703161799987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897419882752967436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe99a4abb75cf29418960648c29de59d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &3964770698608777768
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,7 +260,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09222143c57f39d42beea48fe9c03840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
   prefab: {fileID: 729769070881178258, guid: 2c7edd6de97dcde48a2b9bc11ff19a11, type: 3}
   tail: {fileID: 5978016979234163854}
   tickFrequency: 5
