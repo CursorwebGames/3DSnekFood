@@ -536,16 +536,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5978016979234163854, guid: 15a7fa6c8b31d8b4e9414e50ee3ca7d4,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 19.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5978016979234163854, guid: 15a7fa6c8b31d8b4e9414e50ee3ca7d4,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 20.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5978016979234163854, guid: 15a7fa6c8b31d8b4e9414e50ee3ca7d4,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -559,12 +549,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6346723449206695503, guid: 15a7fa6c8b31d8b4e9414e50ee3ca7d4,
+        type: 3}
+      propertyPath: apple
+      value: 
+      objectReference: {fileID: 1936821699}
     - target: {fileID: 7991015132884057600, guid: 15a7fa6c8b31d8b4e9414e50ee3ca7d4,
         type: 3}
       propertyPath: apple
       value: 
       objectReference: {fileID: 1936821699}
-    m_RemovedComponents: []
+    - target: {fileID: 9024166598110368083, guid: 15a7fa6c8b31d8b4e9414e50ee3ca7d4,
+        type: 3}
+      propertyPath: apple
+      value: 
+      objectReference: {fileID: 1936821699}
+    m_RemovedComponents:
+    - {fileID: 566183867841790934, guid: 15a7fa6c8b31d8b4e9414e50ee3ca7d4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 15a7fa6c8b31d8b4e9414e50ee3ca7d4, type: 3}
 --- !u!1 &1340320926
 GameObject:
@@ -987,7 +988,7 @@ GameObject:
   - component: {fileID: 1936821701}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1097,3 +1098,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 250
   player: {fileID: 1936821700}
+--- !u!1 &2019500149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1897419882752967436, guid: 15a7fa6c8b31d8b4e9414e50ee3ca7d4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1232742367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2019500150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019500149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe99a4abb75cf29418960648c29de59d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

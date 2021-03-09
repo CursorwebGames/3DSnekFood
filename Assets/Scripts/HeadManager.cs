@@ -3,9 +3,10 @@ using UnityEngine.AI;
 
 public class HeadManager : MonoBehaviour
 {
+    public GameManager gameManager;
     public GameObject prefab;
     public Transform tail;
-       
+
     public float tickFrequency = 100;
     public float tick = 0;
 
@@ -24,6 +25,7 @@ public class HeadManager : MonoBehaviour
 
         nav.SetDestination(apple.position);
     }
+
 
     private void AddSegment()
     {
