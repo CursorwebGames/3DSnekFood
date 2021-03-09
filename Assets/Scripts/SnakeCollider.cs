@@ -6,15 +6,7 @@ public class SnakeCollider : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            gameManager.isEnd = true;
-            Debug.Log("You lose!");
-        }
-        else if (other.CompareTag("Segment"))
-        {
-            gameManager.isEnd = true;
-            Debug.Log("You win!");
-        }
+        if (other.CompareTag("Player")) gameManager.Lose();
+        else if (other.CompareTag("Segment")) gameManager.Win();
     }
 }
