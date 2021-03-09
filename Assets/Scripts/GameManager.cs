@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 
     public float tick = 0;
     public float maxTick = 5;
-    private int score = 0;
+    public int score = 0;
 
 
     private void Update()
