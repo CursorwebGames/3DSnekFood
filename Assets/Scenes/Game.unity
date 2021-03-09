@@ -1159,8 +1159,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1936821699}
-  xSens: 50
-  ySens: 50
+  xSens: 25
+  ySens: 25
   maxY: 30
 --- !u!1 &979316120
 GameObject:
