@@ -831,10 +831,13 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Use arrow keys to move.
 
-    Don''t get eaten by the snake!
+    Use your mouse to look around!
 
-    You can
-    touch the snake as long as it''s not the head.
+    Don''t
+    get eaten by the snake!
+
+    You can touch the snake as long as it''s not the
+    head.
 
 
     Have fun!'
