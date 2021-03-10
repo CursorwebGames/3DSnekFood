@@ -1208,8 +1208,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1936821699}
-  xSens: 25
-  ySens: 25
+  xSens: 15
+  ySens: 15
   maxY: 30
 --- !u!114 &963194231
 MonoBehaviour:
